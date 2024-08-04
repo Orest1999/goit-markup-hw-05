@@ -4,19 +4,36 @@ body {
     background-color:#FFFFFF;
     margin: 0;
 }
+/* resset */
 .container{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
+a{
+text-decoration: none;
+}
+
 ul,
 li{
-   list-style-type: none;
+ list-style-type: none;
    margin: 0;
    padding: 0;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
+}
+/* heder */
+.page-header{
+border-bottom: 1px solid #e7e9fc;
+}
+.heder-conteiner{
+ display: flex;
+ align-items: center;
+}
+.navigat{
+display: flex; 
+align-items:center ;
 }
 .emblem{
     font-family: "Raleway",sans-serif;
@@ -28,6 +45,8 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 1.17;
     text-transform:uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 .kolorstudio{
     color:#2E2F42;
@@ -38,9 +57,14 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .poret{
 color:#2e2f42;
+padding: 24px 0;
+display: block;
 }
 .poret:hover,
 .poret:focus{
@@ -52,6 +76,12 @@ color: #404bbf;
 }
 .adres-norm{
 font-style: normal;
+margin-left: auto;
+}
+.contakt-lust{
+ display: flex;
+ align-items: center;
+ gap: 40px;
 }
 .mail {
     font-size: 16px;
@@ -62,6 +92,12 @@ font-style: normal;
 }
 .mail-fonts{
 color: #434455;
+display: block;
+padding: 24px 0;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-size: 16px;
+
     }
 .mail-fonts:hover,
 .mail-fonts:focus {
