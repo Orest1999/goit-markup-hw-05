@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+}
+.emblem{
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    line-height: 1.17;
+    text-transform:uppercase;
+    color: #4d5ae5;
+}
+.kolorstudio{
+    color:#2E2F42;
+}
+.navigation-list {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.poret{
+color:#2e2f42;
+}
+.poret:hover,
+.poret:focus{
+color: #404bbf;
+}
+.navigation-list:hover,
+.navigation-list:focus{
+    color: #404bbf;
+}
+.adres-norm{
+font-style: normal;
+}
+.mail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.mail-fonts{
+color: #434455;
+    }
+.mail-fonts:hover,
+.mail-fonts:focus {
+    color: #404BBF;
+}
+.upper-part {
+        opacity: 0px;
+        background-color: #2E2F42;
+}
+.replik{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 1.07;
+}
+.content{
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        opacity: 0px;
+        background-color:#4D5AE5;
+        cursor:pointer;
+}
+.content:hover,
+.content:focus {
+        background-color:#404BBF;
+        cursor: pointer;
+}
+.rotev{
+color:#2e2f42 ;
+}
+ .com {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color:#2e2f42;
+}
+.retro{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+}
+.fotomen{
+background-color: #F4F4FD;
+}
+.agov{
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+line-height: 1.11;
+text-transform: capitalize;
+}
+.fotospusok{
+background-color: #FFFFFF;
+}
+.imy{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.info-imy{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.topctor {
+opacity: 0px;
+background-color: #2e2F42;
+}
+.kolorstudio-p{
+color: #f4f4fd;
+}
+.tekct {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #F4F4FD;
+}
