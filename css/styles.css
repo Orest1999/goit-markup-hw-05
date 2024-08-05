@@ -183,15 +183,16 @@ color:#f7f8fa ;
         text-align: left;
         color: #434455;
 }
-
 /* photo of the developers  */
-.container .pfoto-of{
+.pfoto-of{
 display: flex;
 align-items: center;
-}
-
-.fotomen{
 background-color: #F4F4FD;
+}
+img{
+    display: block; 
+    max-width: 100%;
+    height: auto;
 }
 .agov{
 font-size: 36px;
@@ -202,9 +203,26 @@ text-align: center;
 color: #2e2f42;
 line-height: 1.11;
 text-transform: capitalize;
+padding-bottom: 72px;
+}
+.fotomen{
+display: flex;
+align-items: center;
+gap: 24px;
 }
 .fotospusok{
 background-color: #FFFFFF;
+border: 1px solid #000;
+border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+}
+/*  fotograf telton */
+
+.telefonfoto{
+display: flex;
+align-items: center;
+gap: 24px;
+    
 }
 .imy{
 font-size: 20px;
@@ -213,6 +231,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+padding-top: 32px;
 }
 .info-imy{
 font-size: 16px;
