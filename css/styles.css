@@ -27,8 +27,9 @@ h1,h2,h3,h4,h5,h6,p{
 border-bottom: 1px solid #e7e9fc;
 }
 .heder-conteiner{
- display: flex;
- align-items: center;
+display: flex;
+align-items: center;
+width: 1158px
  
 }
 .navigat{
@@ -47,6 +48,7 @@ align-items:center ;
     color: #4d5ae5;
     padding: 24px 0;
     margin-right: 76px;
+    display: inline-block
 }
 .kolorstudio{
     color:#2E2F42;
@@ -279,4 +281,7 @@ background-color: #2e2F42;
 height: 312px;
 padding-top: 100px;
 padding-left: 156px;
+}
+.topctor{
+padding: 100px 0 100px;
 }
