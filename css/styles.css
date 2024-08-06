@@ -188,6 +188,8 @@ color:#f7f8fa ;
 display: flex;
 align-items: center;
 background-color: #F4F4FD;
+border: 1px solid #000;
+border-radius: 0 0 4px 4px;
 }
 img{
     display: block; 
@@ -209,6 +211,7 @@ padding-bottom: 72px;
 display: flex;
 align-items: center;
 gap: 24px;
+text-align: center;
 }
 .fotospusok{
 background-color: #FFFFFF;
@@ -216,34 +219,49 @@ border: 1px solid #000;
 border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px 0px;
 }
+.imy-developers{
+padding-top: 16px;
+}
+.info-developers{
+padding-top: 4px;
+}
 /*  fotograf telton */
-
+.telcon-element{
+display: block;
+border-top: none;
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+}
+.fotogrof-telton{
+  display: block;
+  border-top: none;
+}
 .telefonfoto{
 display: flex;
 align-items: center;
 gap: 24px;
-    
+}
+.telefonfoto-pro{
+display: flex;
+align-items: center;
+gap: 24px;
+padding-top: 24px;
 }
 .imy{
 font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-padding-top: 32px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-top: 32px;
 }
 .info-imy{
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
-.topctor {
-opacity: 0px;
-background-color: #2e2F42;
-}
+/* < futter */
 .kolorstudio-p{
 color: #f4f4fd;
 }
@@ -254,4 +272,11 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #F4F4FD;
+}
+.futer-blok{
+opacity: 0px;
+background-color: #2e2F42;
+height: 312px;
+padding-top: 100px;
+padding-left: 156px;
 }
