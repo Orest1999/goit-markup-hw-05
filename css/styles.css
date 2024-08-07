@@ -12,6 +12,7 @@ body {
 }
 a{
 text-decoration: none;
+
 }
 ul,
 li{
@@ -27,7 +28,7 @@ h1,h2,h3,h4,h5,h6,p{
 border-bottom: 1px solid #e7e9fc;
 margin: 0 auto;
 }
-.heder-conteiner{
+.heder-conteinera{
 display: flex;
 align-items: center;
 width: 1158px;
@@ -169,6 +170,10 @@ padding: 188px 0 188px;
         background-color:#404BBF;
         cursor: pointer;
 }
+.bottum-clas{
+padding: 188px 0;
+}
+/* < page description  */
 .tekster{
 display: flex;
 align-items: center;
@@ -181,8 +186,17 @@ gap: 24px;
 padding-left: 78px;
 padding-right: 78px;
 }
-.rotev{
-color:#f7f8fa ;
+.visually-hidden{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
  .com {
         font-size: 20px;
@@ -240,6 +254,7 @@ border: 1px solid #000;
 border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px 0px;
 background-color: #FFFFFF;
+padding: 32px 0;
 }
 .imy-developers{
 padding-top: 16px;
@@ -248,6 +263,11 @@ margin-bottom: 8px;
 .info-developers{
 padding-top: 4px;
 }
+.spusok-devep{
+border-radius: 0px 0px 4px 4px;
+}
+
+
 /*  fotograf telton */
 .telcon-element{
 display: block;
@@ -255,6 +275,7 @@ border-top: none;
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
+flex-wrap: wrap;
 }
 .fotogrof-telton{
   display: block;
@@ -283,6 +304,12 @@ font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+.restro{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
 }
 /* < futter */
 .kolorstudio-p{
