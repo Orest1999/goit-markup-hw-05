@@ -36,7 +36,6 @@ border-bottom: 1px solid #e7e9fc;
 display: flex;
 align-items: center;
 width: 1158px;
-margin: 0 auto;
 }
 .navigat{
 display: flex; 
@@ -124,7 +123,9 @@ padding-bottom: 120px;
     padding-left: 78px;
     padding-right: 78px;
 }
-
+.bottum-clas{
+padding: 188px 0;
+}
 .replik{
         font-size: 56px;
         font-weight: 700;
@@ -189,6 +190,9 @@ padding-right: 78px;
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
+.spyp-description{
+flex-basis: calc((100% - 3 * 24px) / 4)
+}
  .com {
         font-size: 20px;
         font-weight: 500;
@@ -196,6 +200,7 @@ padding-right: 78px;
         letter-spacing: 0.02em;
         text-align: left;
         color:#2e2f42;
+        margin-bottom: 8px;
 }
 .retro{
         font-size: 16px;
@@ -206,6 +211,9 @@ padding-right: 78px;
         color: #434455;
 }
 /* photo of the developers  */
+.sectioner{
+padding: 120px 0;
+}
 .pfoto-of{
 align-items: center;
 background-color: #F4F4FD;
@@ -265,14 +273,16 @@ border-radius: 0px 0px 4px 4px;
 display: flex;
 align-items: center;
 gap: 24px;
+flex-wrap: wrap;
+row-gap: 48px;
 }
 .telcon-element {
+    width: calc((100% - 48px) / 3);
     display: block;
     border-top: none;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    flex-wrap: wrap;
 }
 .imy{
 font-size: 20px;
@@ -286,12 +296,12 @@ font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .restro{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-margin-bottom: 8px;
 }
 /* < futter */
 .kolorstudio-p{
