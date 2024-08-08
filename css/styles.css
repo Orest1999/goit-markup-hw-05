@@ -161,6 +161,9 @@ padding-bottom: 120px;
         background-color:#404BBF;
         cursor: pointer;
 }
+.bottum-clas{
+padding: 188px 0;
+}
 /* < page description  */
 
 .tekster{
@@ -188,7 +191,7 @@ padding-right: 78px;
         overflow: hidden;
 }
 .spyp-description{
-flex-basis: calc((100% - 3 * 24px) / 4)
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
  .com {
         font-size: 20px;
@@ -331,4 +334,5 @@ padding: 100px 0 100px;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 }
