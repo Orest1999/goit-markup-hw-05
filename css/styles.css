@@ -7,8 +7,8 @@ body {
 /* resset */
 .container{
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 a{
 text-decoration: none;
@@ -39,7 +39,7 @@ width: 1158px;
 }
 .navigat{
 display: flex; 
-align-items:center ;
+align-items:center;
 }
 .emblem{
     font-family: "Raleway",sans-serif;
@@ -161,9 +161,6 @@ padding-bottom: 120px;
         background-color:#404BBF;
         cursor: pointer;
 }
-.bottum-clas{
-padding: 188px 0;
-}
 /* < page description  */
 
 .tekster{
@@ -177,6 +174,7 @@ text-align: left;
 gap: 24px;
 padding-left: 78px;
 padding-right: 78px;
+margin: 0;
 }
 .visually-hidden{
     position: absolute;
@@ -191,7 +189,7 @@ padding-right: 78px;
         overflow: hidden;
 }
 .spyp-description{
-flex-basis: calc((100% - 3 * 24px) / 4);
+flex-basis: calc((100%-3*24px)/4);
 }
  .com {
         font-size: 20px;
@@ -308,11 +306,12 @@ border-top: none;
 color: #f4f4fd;
 }
 .tekct {
+    font-family:"Roboto",sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
-text-align: left;
+max-width: 264pxS;
 color: #F4F4FD;
 }
 .futer-blok{
