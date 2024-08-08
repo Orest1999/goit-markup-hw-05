@@ -173,9 +173,6 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 gap: 24px;
-padding-left: 78px;
-padding-right: 78px;
-margin: 0;
 }
 .visually-hidden{
     position: absolute;
@@ -191,6 +188,7 @@ margin: 0;
 }
 .spyp-description{
 flex-basis: calc((100%-3*24px)/4);
+flex-shrink: 0;
 }
  .com {
         font-size: 20px;
