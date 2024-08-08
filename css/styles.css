@@ -23,10 +23,14 @@ li{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* heder */
 .page-header{
 border-bottom: 1px solid #e7e9fc;
-margin: 0 auto;
 }
 .heder-conteinera{
 display: flex;
@@ -107,21 +111,10 @@ font-size: 16px;
 .mail-fonts:focus {
     color: #404BBF;
 }
-.efaktiv{
-width: 1158px;
-margin: 0 auto;
-}
 /* Effective Solutions  */
 .section{
 padding-top: 120px;
 padding-bottom: 120px;
-}
-.section.pefer-efektiv{
-padding-top: 0;
-padding-bottom: 0;
-}
-.pefer-efektiv{
-padding: 188px 0 188px;
 }
 .efaktiv{
     opacity: 0px;
@@ -170,10 +163,8 @@ padding: 188px 0 188px;
         background-color:#404BBF;
         cursor: pointer;
 }
-.bottum-clas{
-padding: 188px 0;
-}
 /* < page description  */
+
 .tekster{
 display: flex;
 align-items: center;
@@ -222,13 +213,7 @@ border: 1px solid #000;
 border-radius: 0 0 4px 4px;
 height: 732px;
 }
-img{
-    display: block; 
-    max-width: 100%;
-    height: auto;
-}
-.agov,
-.visually-hidden {
+.agovres{
 font-size: 36px;
 font-weight: 700;
 line-height: 40px;
@@ -245,9 +230,6 @@ align-items: center;
 gap: 24px;
 text-align: center;
 padding-top: 116px;
-}
-.strategy-terct{
-padding: 32px 0;
 }
 .ramka{
 border: 1px solid #000;
@@ -267,30 +249,30 @@ padding-top: 4px;
 border-radius: 0px 0px 4px 4px;
 }
 
-
 /*  fotograf telton */
-.telcon-element{
-display: block;
-border-top: none;
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
-flex-wrap: wrap;
-}
-.fotogrof-telton{
-  display: block;
-  border-top: none;
+.agov{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    line-height: 1.11;
+    margin-bottom: 72px;
+    padding-top: 60px;
 }
 .telefonfoto{
 display: flex;
 align-items: center;
 gap: 24px;
 }
-.telefonfoto-pro{
-display: flex;
-align-items: center;
-gap: 24px;
-padding-top: 24px;
+.telcon-element {
+    display: block;
+    border-top: none;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    flex-wrap: wrap;
 }
 .imy{
 font-size: 20px;
