@@ -113,14 +113,6 @@ font-size: 16px;
 padding-top: 120px;
 padding-bottom: 120px;
 }
-.efaktiv{
-    opacity: 0px;
-    background-color: #2E2F42;
-    height: 600px;
-    padding-top: 188px;
-    padding-left: 78px;
-    padding-right: 78px;
-}
 .replik{
         font-size: 56px;
         font-weight: 700;
@@ -129,11 +121,8 @@ padding-bottom: 120px;
         text-align: center;
         color: #FFFFFF;
         line-height: 1.07;
-        display: flex;
-        align-items: center;
-        margin-left: 236px;
-        margin-right: 236px;
-        margin-top: 94;
+        margin-left: auto;
+        margin-right: auto;
         max-width: 496px;
     }
 .content{
@@ -143,12 +132,12 @@ padding-bottom: 120px;
         line-height: 24px;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        opacity: 0px;
         background-color:#4D5AE5;
         cursor:pointer;
         border-radius: 4px;
         height: 56px;
-        margin-left: 400px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 48px;
         min-width: 169px;
         display: block;
@@ -161,6 +150,7 @@ padding-bottom: 120px;
 }
 .bottum-clas{
 padding: 188px 0;
+background-color: #2E2F42;
 }
 /* < page description  */
 
@@ -210,13 +200,7 @@ flex-shrink: 0;
 /* photo of the developers  */
 .sectioner{
 padding: 120px 0;
-}
-.pfoto-of{
-align-items: center;
 background-color: #F4F4FD;
-border: 1px solid #000;
-border-radius: 0 0 4px 4px;
-height: 732px;
 }
 .agovres{
 font-size: 36px;
@@ -227,25 +211,26 @@ text-align: center;
 color: #2e2f42;
 line-height: 1.11;
 margin-bottom: 72px;
-padding-top: 60px;
+font-family: "Roboto", sans-serif;
 }
 .fotomen{
 display: flex;
-align-items: center;
 gap: 24px;
-text-align: center;
-padding-top: 116px;
+border-radius: 0px 0px 4px 4px;
+background-color: #FFFFFF;
+border: 1px solid #000;
 }
 .ramka{
-border: 1px solid #000;
-border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-background-color: #FFFFFF;
 padding: 32px 0;
 }
 .imy-developers{
-padding-top: 16px;
 margin-bottom: 8px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .info-developers{
 padding-top: 4px;
@@ -264,7 +249,6 @@ border-radius: 0px 0px 4px 4px;
     color: #2e2f42;
     line-height: 1.11;
     margin-bottom: 72px;
-    padding-top: 60px;
 }
 .telefonfoto{
 display: flex;
@@ -310,18 +294,12 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
-max-width: 264pxS;
+max-width: 264px;
 color: #F4F4FD;
-}
-.futer-blok{
-opacity: 0px;
-background-color: #2e2F42;
-height: 312px;
-padding-top: 100px;
-padding-left: 156px;
 }
 .topctor{
 padding: 100px 0 100px;
+background-color: #2e2F42;
 }
 .emberand{
     font-family: "Raleway", sans-serif;
