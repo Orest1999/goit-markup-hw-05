@@ -217,7 +217,6 @@ font-family: "Roboto", sans-serif;
 display: flex;
 gap: 24px;
 border-radius: 0px 0px 4px 4px;
-background-color: #FFFFFF;
 }
 .ramka{
 padding: 32px 0;
@@ -233,11 +232,11 @@ color: #2e2f42;
 text-align: center;
 }
 .info-developers{
-padding-top: 4px;
 text-align: center;
 }
 .spusok-devep{
 border-radius: 0px 0px 4px 4px;
+background-color: #FFFFFF;
 }
 
 /*  fotograf telton */
@@ -260,19 +259,14 @@ row-gap: 48px;
 }
 .telcon-element {
     width: calc((100% - 48px) / 3);
-    display: block;
-    border-top: none;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
 }
 .imy{
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
+    font-weight: 500;
 }
 .info-imy{
     font-size: 16px;
