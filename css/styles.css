@@ -231,9 +231,11 @@ font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
 }
 .info-developers{
 padding-top: 4px;
+text-align: center;
 }
 .spusok-devep{
 border-radius: 0px 0px 4px 4px;
