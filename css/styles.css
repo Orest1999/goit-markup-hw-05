@@ -281,6 +281,9 @@ row-gap: 48px;
 .telcon-element {
     width: calc((100% - 48px) / 3);
 }
+.telcon-element:hover .wuddha-imy{
+transform: translate(0);
+} 
 .imy{
     font-size: 20px;
     line-height: 24px;
@@ -300,6 +303,24 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
+.wuddha-imy{
+   position: absolute;
+   top: 0; 
+   background-color: #4d5ae5;
+   line-height: 24px;
+   letter-spacing: 0.02em;
+   color: #f4f4fd;
+   padding:40px 32px 164px 32px;
+transform: translateY(100%);
+transition: transform 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ .wuddha-divaiz{
+    position: relative;
+    overflow: hidden;
+ }
+
 /* < futter */
 .kolorstudio-p{
 color: #f4f4fd;
