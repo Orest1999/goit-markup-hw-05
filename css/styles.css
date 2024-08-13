@@ -275,12 +275,13 @@ background-color: #FFFFFF;
 .com-redset-border {
     width: 232px;
     height: 40px;
-    background: #0505ef;
+    background-color: #404bbf;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    fill: #FFFFFF;
+    gap: 24px;
 }
 /*  fotograf telton */
 .agov{
