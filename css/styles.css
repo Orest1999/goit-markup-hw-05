@@ -271,6 +271,17 @@ border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
 }
 
+
+.com-redset-border {
+    width: 232px;
+    height: 40px;
+    background: #0505ef;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 /*  fotograf telton */
 .agov{
     font-size: 36px;
