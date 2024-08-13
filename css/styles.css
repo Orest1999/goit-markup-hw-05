@@ -270,6 +270,17 @@ text-align: center;
 border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
 }
+
+
+.lust-iconu{
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+.ppteri-iconu{
+width: 40px;
+height: 40px;
+}
 .ikonku-com-redc{
     display: flex;
     align-items: center;
