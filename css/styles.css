@@ -272,7 +272,7 @@ background-color: #FFFFFF;
 }
 
 
-.com-redset-border {
+.iconers-redset-border {
     width: 232px;
     height: 40px;
     background-color: #404bbf;
@@ -280,7 +280,7 @@ background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: #FFFFFF;
+    fill: #f4f4fd;
     gap: 24px;
 }
 /*  fotograf telton */
