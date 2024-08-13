@@ -76,6 +76,17 @@ display: block;
 .poret:focus{
 color: #404bbf;
 }
+.restun-ofer::after{
+content: '';
+display: block;
+border-radius: 2px;
+width: 48px;
+height: 4px;
+background-color: #404bbf;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
 .navigation-list:hover,
 .navigation-list:focus{
     color: #404bbf;
