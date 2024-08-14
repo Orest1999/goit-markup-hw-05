@@ -7,7 +7,6 @@ body {
 /* resset */
 a{
 text-decoration: none;
-
 }
 ul,
 li{
@@ -378,3 +377,25 @@ background-color: #2e2F42;
     margin-bottom: 16px;
     display: inline-block;
 }
+.futer-iconu {
+    display: flex;
+    justify-content: center;
+    gap: 16px;}
+    .ppteri-futer {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #4d5ae5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+                .dla-futera{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 72px;
+                    justify-content: flex-start;
+                    align-items: baseline;
+                    margin: auto;
+                    width: 1158px;
+                }
