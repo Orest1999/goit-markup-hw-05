@@ -53,6 +53,7 @@ align-items:center;
     padding: 24px 0;
     margin-right: 76px;
     display: inline-block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .kolorstudio{
     color:#2E2F42;
@@ -79,6 +80,7 @@ color: #404bbf;
 }
 .restun-ofer{
 color: #404bbf;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .restun-ofer::after{
 content: '';
@@ -119,6 +121,7 @@ padding: 24px 0;
 line-height: 1.5;
 letter-spacing: 0.02em;
 font-size: 16px;
+transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .mail-fonts:hover,
 .mail-fonts:focus {
