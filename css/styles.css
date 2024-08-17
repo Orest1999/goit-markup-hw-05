@@ -339,31 +339,15 @@ row-gap: 48px;
 .geratr-ajfe :hover {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .telcon-element {
-    width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.telcon-element:hover {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    background-color: #f0f0f0;
-}
-
-.wuddha-imy {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-.telcon-element:hover .wuddha-imy {
-    transform: translate(0);
-}
-
-/* .telcon-element {
 width: calc((100% - 48px) / 3);
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .telcon-element:hover .wuddha-imy{
 transform: translate(0);
-}  */
+} 
 
 .imy{
     font-size: 20px;
