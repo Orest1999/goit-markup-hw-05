@@ -297,7 +297,6 @@ background-color: #4d5ae5;
 display:flex;
 align-items: center;
 justify-content: center;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .ikonku-com-redc{
@@ -311,6 +310,7 @@ border-radius:50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .porty-dwdwe:hover,
@@ -385,6 +385,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  .wuddha-divaiz{
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 /* < futter */
 .kolorstudio-p{
@@ -461,9 +462,10 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.ikonku-com-redc:hover,
-.ikonku-com-redc:focus{
+.ikonku-coman:hover,
+.ikonku-coman:focus{
 background-color: #31d0aa;
 }
 .iko-red{
