@@ -433,11 +433,11 @@ background-color: #2e2F42;
         align-items: center;
         justify-content: center;
         }
-        .dla-futera{
+       /* .dla-futera{
          display: flex;
          flex-direction: row;
          margin: auto;
-         }
+         }*/
          .futr-tecst{
            font-weight: 500;
             font-size: 16px;
