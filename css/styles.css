@@ -281,6 +281,13 @@ text-align: center;
 }
 .info-developers{
 text-align: center;
+font-family: "Roboto", sans-serif;
+ font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 2%;
+margin-bottom: 8px;
+
 }
 .spusok-devep{
 border-radius: 0px 0px 4px 4px;
