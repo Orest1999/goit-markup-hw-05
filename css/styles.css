@@ -205,11 +205,17 @@ max-width: 1440px
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+
 }
 
 .spyp-description {
     width: calc((100% - 72px)/4);
     flex-shrink: 0;
+    flex-basis: calc((100% - 72px) / 4);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
 }
 
 .com-redset-border {
