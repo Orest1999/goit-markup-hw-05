@@ -427,6 +427,9 @@ background-color: #2e2F42;
     margin-bottom: 16px;
     display: inline-block;
 }
+.dla-futera{
+    margin-right: 80px;
+}
 .futer-iconu {
     display: flex;
     justify-content: center;
@@ -476,20 +479,22 @@ fill: #f4f4fd;
     display: flex;
     flex-direction: column;
     gap: 8px;
+
 }
 
 .subscribe-form {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 .subscribe-input {
-    padding: 10px 16px;
+    padding: 8px 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #2e2f42;
     color: #ffffff;
-    width: 250px;
+    width: 264px;
+    height: 40px;
 }
 
 .subscribe-input::placeholder {
@@ -497,15 +502,15 @@ fill: #f4f4fd;
 }
 
 .subscribe-button {
+    width: 165px;
+    height: 40px;
     background-color: #4d5ae5;
     color: white;
     border: none;
     border-radius: 4px;
-    padding: 10px 16px;
     display: flex;
     align-items: center;
     gap: 8px;
-    cursor: pointer;
 }
 
 .subscribe-icon {
