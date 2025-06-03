@@ -529,7 +529,7 @@ fill: #f4f4fd;
             align-items: center;
             justify-content: center;*/
         }
-        .modal{       
+        .modal {       
         border-radius: 4px;
         width: 408px;
         min-height: 584px;
@@ -540,11 +540,18 @@ fill: #f4f4fd;
         left: 50%;
         transform: translate(-50%,-50%);
         }
-.button-hrest{
+       .button-hrest{
+           border-radius: 4px;
+           width: 24px;
+           height: 24px;
+        }
+       
+       
+       
+       .ico-hres {
         border-radius: 100%;
         fill: #e7e9fc;
         stroke-width: 1px;
-        stroke: rgba(0, 0, 0, 0.1);}
-.ico-hres {
-    fill: #2e2f42
+        stroke: rgba(0, 0, 0, 0.1);
+        fill: #2e2f42
          }
