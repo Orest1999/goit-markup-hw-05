@@ -540,10 +540,13 @@ fill: #f4f4fd;
         left: 50%;
         transform: translate(-50%,-50%);
         }
-       .button-hrest{
+       .hrest-button{
            border-radius: 4px;
            width: 24px;
            height: 24px;
+           position: absolute;
+           right: 24px;
+           top: 24px;
         }
        
        
