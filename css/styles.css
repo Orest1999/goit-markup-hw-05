@@ -511,6 +511,7 @@ fill: #f4f4fd;
     border-radius: 4px;
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .subscribe-icon {
@@ -571,4 +572,5 @@ fill: #f4f4fd;
             letter-spacing: 0.02em;
             text-align: center;
             color: #2e2f42;
+            margin-bottom: 16px;
          }
