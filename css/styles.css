@@ -515,3 +515,14 @@ fill: #f4f4fd;
 
 .subscribe-icon {
     fill: white; }
+.ico-furer{
+    fill: #f4f4fd;
+        }
+
+        /*MODEL*/
+        .begdrop{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(46, 47, 66, 0.4);
+            position: fixed;
+        }
