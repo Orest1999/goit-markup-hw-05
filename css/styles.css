@@ -502,6 +502,7 @@ fill: #f4f4fd;
 }
 
 .subscribe-button {
+    padding: 8px 24px;
     width: 165px;
     height: 40px;
     background-color: #4d5ae5;
@@ -510,7 +511,6 @@ fill: #f4f4fd;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    gap: 8px;
 }
 
 .subscribe-icon {
