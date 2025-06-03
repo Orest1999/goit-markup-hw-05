@@ -539,7 +539,11 @@ fill: #f4f4fd;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        padding: 72px,24px,24px,24px;
+        padding-top: 76px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        
         }
        .hrest-button{
         border-radius: 100%;
@@ -558,4 +562,13 @@ fill: #f4f4fd;
         }
        .ico-hres {
         fill: #2e2f42
+         }
+         .mode-tekct{
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;
          }
