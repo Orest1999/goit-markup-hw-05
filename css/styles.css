@@ -605,8 +605,15 @@ fill: #f4f4fd;
              width: 360px;    
              height: 40px;
              padding-left: 38px;
+             outline:transparent;
               }
 
+            .wektor:focus{
+                border-color: #4d5ae5; 
+            }
+            .wektor:focus +.input-icon {
+            fill: #4d5ae5;
+                        }
             .input-icon{
                position: absolute; 
                left: 16px;
@@ -617,16 +624,32 @@ fill: #f4f4fd;
               position: relative;}
             
         
-          
-
-           /* BUTTON*/
-             .textarea {
-            width: 100%;
-            border-radius: 4px;
-            padding: 16px;
-            resize: vertical;
-            margin-bottom: 24px;
+          .moddell-ren{
+            width: 360px;
+            height: 138px;
+            margin-bottom: 20px;
           }
+
+          .moddell-tew{
+           position: relative;
+            }
+             .textarea {
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            border-radius: 4px;
+            width: 360px;
+            height: 120px;
+            padding: 16px;
+            margin-bottom: 24px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;
+          }
+
+
+          
+            /* BUTTON*/
           .submit-btn {
             width: 169px;
             height: 56px;
@@ -640,5 +663,8 @@ fill: #f4f4fd;
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            margin: auto;
+            display: block;
+            border: none;
           }
        
