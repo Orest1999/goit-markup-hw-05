@@ -573,3 +573,10 @@ fill: #f4f4fd;
             color: #2e2f42;
             margin-bottom: 16px;
          }
+        .user-naym{
+                border-radius: 4px;
+                width: 360px;
+                height: 336px;
+                padding-bottom: 8px;
+               background-color: #31d0aa;
+        }
