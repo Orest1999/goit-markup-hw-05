@@ -574,12 +574,13 @@ fill: #f4f4fd;
             margin-bottom: 16px;
          }
         .wektor{
-                border-radius: 4px;
-                width: 360px;
-                height: 58px;
-        }
-
-
+            font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                /* line-height: 14px; */
+                line-height: 117%;
+                letter-spacing: 0.04em;
+                color: #8e8f99;}
         .input-wrapper {
             position: relative;
             display: block;
@@ -620,3 +621,4 @@ fill: #f4f4fd;
             border-radius: 4px;
             cursor: pointer;
           }
+       
