@@ -403,27 +403,42 @@
 </div>
 
       </footer>
-    <!-- MODEL -->
-      <div class="begdrop">
-        <div class="modal">
-<button type="button" class="hrest-button">
-    <svg class="ico-hres" width="8" height="8">
-        <use href="./images/icons.svg#icon-hrest"></use>
-    </svg>
-</button>
-<p class="mode-tekct">Leave your contacts and we will call you back</p>
-<form class="modtl-form">
-<input type="text" class="wektor" name="user-naym" >
-<input type="text" class="wektor" name="user-phone">
-<input type="email" class="wektor" name="user-email">
+<!-- MODEL -->
+<div class="begdrop">
+    <div class="modal">
+        <button type="button" class="hrest-button">
+            <svg class="ico-hres" width="8" height="8">
+                <use href="./images/icons.svg#icon-hrest"></use>
+            </svg>
+        </button>
+        <p class="mode-tekct">Leave your contacts and we will call you back</p>
+        <form class="modtl-form">
+            <label class="input-wrapper">
+                <input type="text" class="wektor" name="user-name" placeholder="Your name">
+                <svg class="input-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-user"></use>
+                </svg>
+            </label>
 
+            <label class="input-wrapper">
+                <input type="text" class="wektor" name="user-phone" placeholder="Phone number">
+                <svg class="input-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+            </label>
 
-<textarea name="" id=""></textarea>
-<button> </button>
-</form>
-          
+            <label class="input-wrapper">
+                <input type="email" class="wektor" name="user-email" placeholder="Email">
+                <svg class="input-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+            </label>
 
-</div>
-      </div>
+            <textarea name="user-comment" rows="4" placeholder="Comment" class="textarea"></textarea>
+
+            <button type="submit" class="submit-btn">Send</button>
+        </form>
+    </div>
+    </div>
 </body>
 </html>
