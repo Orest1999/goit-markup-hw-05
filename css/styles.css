@@ -526,10 +526,19 @@ fill: #f4f4fd;
             background-color: rgba(46, 47, 66, 0.4);
             position: fixed;
             top: 0;
+            opacity: 0;
+            pointer-events:none;
+            visibility: hidden;}
            /* display: flex;
             align-items: center;
             justify-content: center;*/
-        }
+
+                 .is-open{
+                    opacity: 1;
+                    pointer-events: auto;
+                    visibility:visible ;}
+
+        
         .modal {       
         border-radius: 4px;
         width: 408px;
@@ -647,7 +656,26 @@ fill: #f4f4fd;
             letter-spacing: 0.04em;
           }
 
-
+         .xeeren {
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            margin-right: 8px;
+         }
+         .reget{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px; 
+            letter-spacing: 0.04em;
+            color: #8e8f99;
+            display: flex;
+            align-items: center;
+         }
+         .chek-boks:checked +.xeeren .reget{
+            background-color: #404BBF;
+            border: none;
+         }
           
             /* BUTTON*/
           .submit-btn {
