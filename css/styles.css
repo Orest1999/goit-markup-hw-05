@@ -655,13 +655,19 @@ fill: #f4f4fd;
             line-height: 14px;
             letter-spacing: 0.04em;
           }
-
+                  .radio-cnopka{
+                    padding-bottom: 24px;
+                  }
          .xeeren {
             width: 16px;
             height: 16px;
             border-radius: 2px;
             border: 1px solid rgba(46, 47, 66, 0.4);
             margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            fill: transparent;
          }
          .reget{
             font-weight: 400;
@@ -672,10 +678,24 @@ fill: #f4f4fd;
             display: flex;
             align-items: center;
          }
-         .chek-boks:checked +.xeeren .reget{
+         .chek-boks:checked + .reget .xeeren {
             background-color: #404BBF;
             border: none;
+            fill: #FFFFFF;
+
          }
+                 .visually-hidden {
+                     position: absolute;
+                     width: 1px;
+                     height: 1px;
+                     margin: -1px;
+                     border: 0;
+                     padding: 0;
+        
+                     white-space: nowrap;
+                     clip-path: inset(100%);
+                     clip: rect(0 0 0 0);
+                     overflow: hidden;         }
           
             /* BUTTON*/
           .submit-btn {
@@ -695,4 +715,7 @@ fill: #f4f4fd;
             display: block;
             border: none;
           }
-       
+
+          .input-coropka{
+                  border-radius: 2px;
+                  border: 1px solid rgba(46, 47, 66, 0.4);}
