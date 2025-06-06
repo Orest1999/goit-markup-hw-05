@@ -512,13 +512,12 @@ fill: #f4f4fd;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
 }
 
 .futr-tecst {
     font-size: 16px;
     color: #ffffff;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     width: 100%;
 }
 
@@ -526,7 +525,6 @@ fill: #f4f4fd;
     display: flex;
     gap: 24px;
     align-items: center;
-  
 }
 
 .subscribe-label {
@@ -565,7 +563,6 @@ fill: #f4f4fd;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     background-color: #4d5ae5;
     color: white;
     border: none;
@@ -581,6 +578,7 @@ fill: #f4f4fd;
     fill: white;
     width: 24px;
     height: 24px;
+    margin-left: 16px;
 }
 
         /*MODEL*/
