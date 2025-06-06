@@ -734,13 +734,6 @@ img {
     width: 100%;
 }
 
-.form-field {
-    margin-bottom: 24px;
-}
-
-.field-rest {
-    margin-bottom: 16px;
-}
 
 .input-label {
     display: block;
@@ -805,11 +798,6 @@ img {
 
 .textarea:focus {
     border-color: #4d5ae5;
-}
-
-.checkbox-policy-wrapper {
-    margin-bottom: 20px;
-    display: flex;
 }
 
 .policy-label {
