@@ -809,6 +809,7 @@ img {
 
 .checkbox-policy-wrapper {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .policy-label {
