@@ -420,6 +420,7 @@
                     <p class="modal-text">Leave your contacts and we will call you back</p>
             
                     <form class="modal-form">
+                        <!-- Name field -->
                         <div class="form-field">
                             <label for="user-name" class="input-label">Name</label>
                             <div class="input-wrapper">
@@ -430,6 +431,7 @@
                             </div>
                         </div>
             
+                        <!-- Phone field -->
                         <div class="form-field">
                             <label for="user-phone" class="input-label">Phone</label>
                             <div class="input-wrapper">
@@ -440,6 +442,7 @@
                             </div>
                         </div>
             
+                        <!-- Email field -->
                         <div class="form-field">
                             <label for="user-email" class="input-label">Email</label>
                             <div class="input-wrapper">
@@ -450,11 +453,13 @@
                             </div>
                         </div>
             
+                        <!-- Comment field -->
                         <div class="form-field field-rest">
                             <label for="user-comment" class="input-label">Comment</label>
                             <textarea id="user-comment" name="user-comment" placeholder="Text input" class="textarea"></textarea>
                         </div>
             
+                        <!-- Checkbox -->
                         <div class="checkbox-policy-wrapper">
                             <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="visually-hidden" />
                             <label for="user-privacy" class="policy-label">
@@ -468,9 +473,10 @@
                             </label>
                         </div>
             
+                        <!-- Submit button -->
                         <button type="submit" class="submit-btn">Send</button>
                     </form>
-                </div>       
-             </div>
+                </div> <!-- .modal -->
+            </div> <!-- .backdrop.is-open -->
 </body>
 </html>
