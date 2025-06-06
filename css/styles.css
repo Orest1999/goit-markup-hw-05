@@ -465,10 +465,9 @@ img {
     color: #F4F4FD;
 }
 
-.topctor {
+.topctor{
     padding: 100px 0 100px;
     background-color: #2e2F42;
-    /* ДОДАНО ТУТ */
 }
 
 .emberand {
@@ -965,3 +964,6 @@ img {
     width: 24px;
     height: 24px;
     margin-left: 16px;}
+
+    .checkbox-policy{
+     margin-bottom: 20px;}
