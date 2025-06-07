@@ -805,7 +805,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -820,14 +820,14 @@ img {
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 input[type="checkbox"]:checked+.policy-label .derbon {
     background-color: #404bbf;
     border: none;
-    fill: #f4f4fd;
-}
-
+    fill: #f4f4fd; }
+    
 .checkbox-icon {
     width: 10px;
     height: 8px;
