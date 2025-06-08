@@ -393,19 +393,22 @@ img {
     row-gap: 48px;
 }
 
-.geratr-ajfe :hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 
 .telcon-element {
     width: calc((100% - 48px) / 3);
 
 }
 
-.telcon-element:hover .wuddha-imy {
-    transform: translate(0);
+.telcon-element:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.telcon-element:hover .wuddha-imy {
+    transform: translate(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 .imy {
     font-size: 20px;
@@ -670,16 +673,6 @@ img {
     padding: 72px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-    .field-rest{
-    margin-bottom: 16px;
-    }
-    .checkbox-policy-wrapper{
-        margin-bottom: 24px;
-    }
-    .form-field{
-     margin-bottom: 8px;
-     }
-
 
 .close-button {
     width: 24px;
@@ -937,5 +930,11 @@ input[type="checkbox"]:checked+.policy-label .derbon {
     width: 24px;
     height: 24px;
     margin-left: 16px;}
-    
-  
+        .field-rest {
+            margin-bottom: 16px;
+        }
+        .checkbox-policy-wrapper {
+            margin-bottom: 24px;
+        }
+        .form-field {
+            margin-bottom: 8px;   }
