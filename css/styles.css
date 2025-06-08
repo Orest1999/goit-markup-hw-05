@@ -242,12 +242,7 @@ img {
 
 .spyp-description {
     width: calc((100% - 72px)/4);
-    flex-shrink: 0;
-    flex-basis: calc((100% - 72px) / 4);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+   
 }
 
 .com-redset-border {
@@ -289,7 +284,6 @@ img {
 .agovres {
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -301,7 +295,6 @@ img {
 .fotomen {
     display: flex;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .ramka {
@@ -313,21 +306,21 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
 }
 
 .info-developers {
-    text-align: center;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    font-weight: 400;
+    font-size: 16px;
     margin-bottom: 8px;
-
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .spusok-devep {
@@ -375,12 +368,16 @@ img {
 .porty-dwdwe:focus {
     background-color: #404bbf;
 }
+.foto{
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
 
 /* fotograf telton */
 .agov {
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -402,16 +399,17 @@ img {
 
 .telcon-element {
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .telcon-element:hover .wuddha-imy {
     transform: translate(0);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .imy {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
@@ -421,7 +419,7 @@ img {
 .info-imy {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
@@ -435,7 +433,7 @@ img {
     position: absolute;
     top: 0;
     background-color: #4d5ae5;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px 164px 32px;
@@ -459,7 +457,7 @@ img {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     max-width: 264px;
     color: #F4F4FD;
@@ -474,7 +472,7 @@ img {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.11;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -540,13 +538,6 @@ img {
     fill: #f4f4fd;
 }
 
-.subscribe-section {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-
-}
-
 .subscribe-form {
     display: flex;
     gap: 16px;
@@ -574,12 +565,6 @@ img {
     fill: white;
 }
 
-
-.subscribe-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
 .futr-tecst {
     font-size: 16px;
@@ -685,6 +670,16 @@ img {
     padding: 72px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+    .field-rest{
+    margin-bottom: 16px;
+    }
+    .checkbox-policy-wrapper{
+        margin-bottom: 24px;
+    }
+    .form-field{
+     margin-bottom: 8px;
+     }
+
 
 .close-button {
     width: 24px;
@@ -729,11 +724,6 @@ img {
     color: #2e2f42;
     margin-bottom: 16px;
 }
-
-.modal-form {
-    width: 100%;
-}
-
 
 .input-label {
     display: block;
@@ -791,7 +781,6 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-bottom: 20px;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -809,6 +798,7 @@ img {
 }
 
 .derbon {
+    margin-right: 8px ;
     display: inline-flex;
     align-items: center;
     justify-content: center;
