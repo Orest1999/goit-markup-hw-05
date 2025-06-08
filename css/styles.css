@@ -770,6 +770,7 @@ img {
 }
 
 .input-icon {
+    display: inline-block;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -946,5 +947,5 @@ input[type="checkbox"]:checked+.policy-label .derbon {
     width: 24px;
     height: 24px;
     margin-left: 16px;}
-
+    
   
