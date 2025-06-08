@@ -930,7 +930,8 @@ input[type="checkbox"]:checked+.policy-label .derbon {
     width: 24px;
     height: 24px;
     margin-left: 16px;}
-        .field-rest {
+
+        .form-field-field-rest{
             margin-bottom: 16px;
         }
         .checkbox-policy-wrapper {
